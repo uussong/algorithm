@@ -1,6 +1,6 @@
 import sys
 
-sys.stdin = open("../1206_view/input.txt")
+sys.stdin = open("input.txt")
 
 """
 이 문제는, 블록들을 움직이는 것보다, 블록탑을 움직이도록 생각하는게 쉽습니다.
