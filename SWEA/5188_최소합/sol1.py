@@ -5,7 +5,7 @@ sys.stdin = open('sample_input.txt')
 def dfs(x, y, acc):
     global result
 
-    if x == N-1 and y == N-1:   # 종료
+    if x == N-1 and y == N-1:   # 종료 조건
         result = min(acc, result)
     else:
         if x + 1 < N:   # 아래로 움직이는 경우
