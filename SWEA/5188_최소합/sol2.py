@@ -7,7 +7,7 @@ dc = [0, 1]
 
 def dfs(r, c, ssum):
     global min_sum
-    if min_sum < ssum:
+    if min_sum < ssum:  # 백트래킹
         return
 
     if r == N-1 and c == N-1:
