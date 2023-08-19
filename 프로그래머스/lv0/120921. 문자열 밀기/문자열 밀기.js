@@ -1,4 +1,3 @@
 function solution(A, B) {
-    B = B + B
-    return B.indexOf(A)
+    return (B + B).indexOf(A)
 }
